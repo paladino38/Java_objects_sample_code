@@ -8,9 +8,11 @@ public class Main {
         itau.setNumeroDaConta(2844890);
         itau.setBeneficiario(meucpf);
 
+
         ArrayList<cpf> lista_de_cpf = new ArrayList<cpf>();
         lista_de_cpf.add(meucpf);
         System.out.println(lista_de_cpf.get(0).getNumeroDoCpf());
+
 
         System.out.println("Numero do cpf = "+meucpf.getNumeroDoCpf()+ "cpf ta queimado? " + meucpf.isQueimado());
         System.out.println("\n");

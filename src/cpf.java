@@ -12,6 +12,7 @@ public class cpf {
         this.queimado = queimado;
     }
 
+
     public boolean isQueimado() {
         return queimado;
     }

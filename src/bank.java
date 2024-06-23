@@ -14,6 +14,7 @@ public class bank extends cpf {
         return beneficiario;
     }
 
+
     public void setBeneficiario(cpf beneficiario) {
         this.beneficiario = beneficiario;
     }
